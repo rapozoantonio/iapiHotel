@@ -1,0 +1,875 @@
+<!DOCTYPE HTML>
+<!-- Alpha Hotel: HTML Template by Klaye Morrison (http://klayemorrison.com) -->
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Documentation - Alpha Hotel HTML Template</title>
+<link rel="stylesheet" href="documentation.css">
+<script src="documentation.js"></script>
+</head>
+<body id="overview">
+<nav>
+	<div id="title">Documentation</div>
+	<ul>
+    	<li class="active"><a href="#overview">Overview</a></li>
+        <li><a href="#styling">Styling</a></li>
+        <li><a href="#shortcodes">Shortcodes</a></li>
+        <li><a href="#contactform">Contact Forms</a></li>
+        <li><a href="#credits">Credits</a></li>
+    </ul>
+    <a class="button" href="http://themeforest.net/item/alpha-hotel-website-template/15582771/comments?ref=Klayemore" target="_blank">Get Support</a>
+</nav>
+<main>
+	<h1>Alpha Hotel HTML Template<br />
+    <span>By <a href="http://themeforest.net/user/klayemore?ref=Klayemore" target="_blank">Klayemore</a></span></h1>
+    <p class="support"><strong>Hey, thanks for purchasing my template. This documentation includes everything you should need to know.</strong> If you are happy with your purchase, I'd love it if you could help me out by rating my template. If you have any issues, please feel free to contact me through <a href="http://themeforest.net/item/alpha-hotel-website-template/15582771/comments?ref=Klayemore" target="_blank">Themeforest</a> and I'll help you out as best I can. Cheers!</p>
+    <p><a href="http://themeforest.net/downloads" target="_blank" style="border:none; padding:0;"><p><img src="images/how-to-rate.jpg" /></p></a></p>
+    <p><strong>This template is built with HTML5 and comes with 18 HTML/PHP files. The editable CSS file is 'style.css', the editable JS file is 'script.js' and the 'system' folder contains other template-specific files such as email scripts and language flags.</strong></p>
+    <ul>
+        <li><strong><a href="http://demo.klayemorrison.com/alpha-hotel/index.html" target="_blank">index.html</a></strong> - The default home page</li>
+        <li><strong><a href="http://demo.klayemorrison.com/alpha-hotel/accommodation.html" target="_blank">accommodation.html</a></strong> - Displays all room types.</li>
+        <li><strong><a href="http://demo.klayemorrison.com/alpha-hotel/accommodation-room.html" target="_blank">accommodation-room.html</a></strong> - The default room display.</li>
+        <li><strong><a href="http://demo.klayemorrison.com/alpha-hotel/location.html" target="_blank">location.html</a></strong> - For information about the location and local attractions.</li>
+        <li><strong><a href="http://demo.klayemorrison.com/alpha-hotel/gallery.html" target="_blank">gallery.html</a></strong> - A full-width, lazy load gallery.</li>
+        <li><strong><a href="http://demo.klayemorrison.com/alpha-hotel/about.html" target="_blank">about.html</a></strong> - General information about the hotel.</li>
+        <li><strong><a href="http://demo.klayemorrison.com/alpha-hotel/packages.html" target="_blank">packages.html</a></strong> - Displays special packages for the hotel.</li>
+        <li><strong><a href="http://demo.klayemorrison.com/alpha-hotel/restaurant.html" target="_blank">restaurant.html</a></strong> - Includes a menu, ideal for restaurants, day spas or wedding / conference venues.</li>
+        <li><strong><a href="http://demo.klayemorrison.com/alpha-hotel/testimonials.html" target="_blank">testimonials.html</a></strong> - For guest testimonials.</li>
+        <li><strong><a href="http://demo.klayemorrison.com/alpha-hotel/blog.html" target="_blank">blog.html</a></strong> - For blog articles or local events.</li>
+        <li><strong><a href="http://demo.klayemorrison.com/alpha-hotel/blog-post.html" target="_blank">blog-post.html</a></strong> - Blog post detail view.</li>
+        <li><strong><a href="http://demo.klayemorrison.com/alpha-hotel/shortcodes.html" target="_blank">shortcodes.html</a></strong> - Displays all of the theme sections available.</li>
+        <li><strong><a href="http://demo.klayemorrison.com/alpha-hotel/contact.html" target="_blank">contact.html</a></strong> - Contact page with form.<br /><br /></li>
+        
+        <li><strong><a href="http://demo.klayemorrison.com/alpha-hotel/contact.php" target="_blank">contact.php</a></strong> - As per contact.html, but with a functioning PHP Mailer form.</li>
+        <li><strong><a href="http://demo.klayemorrison.com/alpha-hotel/subscribe.php" target="_blank">subscribe.php</a></strong> - A working example of the newsletter sign up form.</li>
+        <li><strong><a href="http://demo.klayemorrison.com/alpha-hotel/system/email/template-guest.php" target="_blank">template-guest.php</a></strong> - Email template sent to guests when a user fills out the contact form.</li>
+        <li><strong><a href="http://demo.klayemorrison.com/alpha-hotel/system/email/template-hotel.php" target="_blank">template-hotel.php</a></strong> - Email template sent to the hotel when a user fills out the contact form.</li>
+    </ul>
+    
+    <p>There are index and contact pages ending in 'no-booking'. These are to be used for businesses that aren't hotels and don't need to take bookings. There is an additional 'no-booking' class added to the container and a slightly different navigation that will need to be replicated across all pages.</p>
+    
+    
+    
+    <!-- Styling -->
+    <section id="styling">
+    	<h2>Styling</h2>
+        <h3>Header Logo</h3>
+        <p>The logo has 2 instances - 'Dark' used as default, and 'Light' used when the booking panel is revealed. Be sure to replace both of the logos, or simply delete the 'Light' version if you are unsure how to invert the colours of your logo.</p>
+        <h3>HTML5 Icons</h3>
+        <p>All icons are being loaded from <a href="http://ionicons.com/" target="_blank">Ion Icons</a>. To replace an icon, get the code and replace the relevant icon in the HTML. There is also a handy <a href="http://ionicons.com/cheatsheet.html" target="_blank">Cheatsheet</a>, which references all icons.</p>
+        <h3>Language Flags</h3>
+        <p>The flags in the language selector are being loaded from <a href="http://lipis.github.io/flag-icon-css/" target="_blank">Flag Icon CSS</a>. To replace any of the flags, download the package, place the relevant SVG file in the 'system' > 'flags' folder, then update the HTML.</p>
+        <h3>Fade Effect</h3>
+        <p>Template sections fade in when scrolling down the page. To remove this effect, simply delete the 'fade' class from the sections.</p>
+    </section>
+    
+    
+    
+    <!-- Content Index -->
+    <section id="shortcodes">
+    	<h2>Shortcodes</h2>
+        
+        <ul class="subnav">
+            <li><a href="#code-headings">Headings</a></li>
+            <li><a href="#code-text">Text Blocks</a></li>
+            <li><a href="#code-panels">Photo Panels</a></li>
+            <li><a href="#code-carousels">Carousels</a></li>
+            <li><a href="#code-gallery">Gallery</a></li>
+            <li><a href="#code-boxes">Boxes</a></li>
+            <li><a href="#code-timeline">Timeline</a></li>
+            <li><a href="#code-stats">Stats</a></li>
+            <li><a href="#code-features">Features</a></li>
+            <li><a href="#code-usps">USPs</a></li>
+            <li><a href="#code-services">Services</a></li>
+            <li><a href="#code-testimonials">Testimonials</a></li>
+            <li><a href="#code-quotes">Quotes</a></li>
+            <li><a href="#code-accordions">Accordions</a></li>
+            <li><a href="#code-menus">Menus</a></li>
+            <li><a href="#code-comments">Comments</a></li>
+            <li><a href="#code-subscribe">Subscribe</a></li>
+            <li><a href="#code-maps">Maps</a></li>
+        </ul>
+        
+        <div id="code-headings" class="anchor"></div>
+        <h3>Headings</h3>
+        <p><img src="images/alpha-headings.jpg" /></p>
+<pre>&lt;!-- Heading | START --&gt;
+&lt;div class=&quot;section heading fade&quot;&gt;
+	&lt;div class=&quot;back&quot; data-image=&quot;images/2000x600-3.jpg&quot;&gt;&lt;/div&gt;
+    
+    &lt;div class=&quot;item&quot;&gt;
+        &lt;div class=&quot;label&quot;&gt;Alpha Hotel&lt;/div&gt;
+        &lt;h1&gt;Documentation&lt;/h1&gt;
+    &lt;/div&gt;
+        
+&lt;/div&gt;
+&lt;!-- Heading | END --&gt;
+</pre>
+<hr />
+        <div id="code-text" class="anchor"></div>
+        <h3>Text Blocks</h3>
+        <p><img src="images/alpha-text.jpg" /></p>
+<pre>&lt;!-- Text Block | START --&gt;
+&lt;div class=&quot;section text fade&quot;&gt;
+	&lt;div class=&quot;center&quot;&gt;
+    
+        &lt;div class=&quot;col-2&quot;&gt;
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti. Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero.&lt;/p&gt;
+        &lt;/div&gt;
+        
+    	&lt;div class=&quot;col-2&quot;&gt;
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti. Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero.&lt;/p&gt;
+        &lt;/div&gt;
+        
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Text Block | END --&gt;
+
+&lt;!-- Text Block | START --&gt;
+&lt;div class=&quot;section text feature fade&quot;&gt;
+	&lt;div class=&quot;center&quot;&gt;
+    
+        &lt;div class=&quot;col-1&quot;&gt;
+            &lt;ul class=&quot;tags&quot;&gt;
+                &lt;li&gt;Spa Bath&lt;/li&gt;
+                &lt;li&gt;King Size Bed&lt;/li&gt;
+                &lt;li&gt;Air Conditioning&lt;/li&gt;
+                &lt;li&gt;CD Player&lt;/li&gt;
+                &lt;li&gt;Dishwasher&lt;/li&gt;
+                &lt;li&gt;Cable Television&lt;/li&gt;
+                &lt;li&gt;Spacious Living Areas&lt;/li&gt;
+                &lt;li&gt;Free Unlimited Wi-Fi&lt;/li&gt;
+                &lt;li&gt;24 Hour Room Service&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+        
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Text Block | END --&gt;
+</pre>
+<hr />
+
+        <div id="code-panels" class="anchor"></div>
+        <h3>Photo Panels</h3>
+        <p><img src="images/alpha-photo-panels.jpg" /></p>
+<pre>&lt;!-- Photo Panel | START --&gt;
+&lt;div class=&quot;section panel&quot;&gt;
+
+	&lt;div class=&quot;item side fade&quot;&gt;
+    	&lt;div class=&quot;back&quot; data-image=&quot;images/1500x800-2.jpg&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;panel-button&quot;&gt;
+        	&lt;div class=&quot;button-container&quot;&gt;
+                &lt;a href=&quot;accommodation.html&quot;&gt;Accommodation&lt;/a&gt;
+                &lt;span&gt;See our Apartments &lt;i class=&quot;icon ion-ios-arrow-right&quot;&gt;&lt;/i&gt;&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;details&quot;&gt;
+        	&lt;div class=&quot;float&quot;&gt;
+            	&lt;h3&gt;We always pay attention to the &lt;strong&gt;finer details&lt;/strong&gt;&lt;/h3&gt;
+                &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit.&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;item fade&quot;&gt;
+    	&lt;div class=&quot;back&quot; data-image=&quot;images/2000x600-2.jpg&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;panel-button&quot;&gt;
+        	&lt;div class=&quot;button-container&quot;&gt;
+                &lt;a href=&quot;accommodation-packages.html&quot;&gt;Stay and Explore&lt;/a&gt;
+                &lt;span&gt;See our packages &lt;i class=&quot;icon ion-ios-arrow-right&quot;&gt;&lt;/i&gt;&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+	&lt;div class=&quot;item feature fade&quot;&gt;
+    	&lt;div class=&quot;back&quot; data-image=&quot;images/1500x800-1.jpg&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;details&quot;&gt;
+            &lt;h1&gt;Five star package&lt;/h1&gt;
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.&lt;/p&gt;
+            &lt;p&gt;&lt;a class=&quot;button&quot; href=&quot;contact.php&quot;&gt;Book Package &lt;i class=&quot;icon ion-ios-arrow-right&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;screen&quot;&gt;
+            &lt;div class=&quot;back&quot; data-image=&quot;images/1500x800-1.jpg&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;/div&gt;
+&lt;!-- Photo Panel | END --&gt;
+</pre>
+        <p><strong>Photo Panels (Carousel)</strong></p>
+        <p>Any of the 'Photo Panel' sections can be turned into carousel sliders by adding additional code.</p>
+        <pre>&lt;!-- Photo Panel | START --&gt;
+&lt;div class=&quot;section panel fade&quot;&gt;
+&lt;div class=&quot;slider&quot;&gt;
+    
+    &lt;div class=&quot;item&quot;&gt;
+    	&lt;div class=&quot;back&quot; data-image=&quot;images/2000x1000-1.jpg&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;panel-button&quot;&gt;
+        	&lt;div class=&quot;button-container&quot;&gt;
+                &lt;a href=&quot;location.html&quot;&gt;Discover Melbourne's most &lt;strong&gt;vibrant&lt;/strong&gt; location&lt;/a&gt;
+                &lt;span&gt;Plan your stay &lt;i class=&quot;icon ion-ios-arrow-right&quot;&gt;&lt;/i&gt;&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;item&quot;&gt;
+    	&lt;div class=&quot;back&quot; data-image=&quot;images/2000x1000-2.jpg&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;panel-button&quot;&gt;
+        	&lt;div class=&quot;button-container&quot;&gt;
+                &lt;a href=&quot;packages.html&quot;&gt;Book online, stay and &lt;strong&gt;explore&lt;/strong&gt;&lt;/a&gt;
+                &lt;span&gt;See our packages &lt;i class=&quot;icon ion-ios-arrow-right&quot;&gt;&lt;/i&gt;&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;/div&gt; 
+&lt;div class=&quot;slider-nav&quot;&gt;
+    &lt;a class=&quot;prev&quot;&gt;&lt;i class=&quot;icon ion-ios-arrow-left&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+    &lt;a class=&quot;next&quot;&gt;&lt;i class=&quot;icon ion-ios-arrow-right&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;/div&gt;  
+&lt;/div&gt;
+&lt;!-- Photo Panel | END --&gt;
+</pre>
+        <p><img src="images/alpha-photo-panels-hero.jpg" /></p>
+        <p><strong>Photo Panels (Hero)</strong></p>
+        <p>Photo panels can also be 'Hero' panels, so that they stretch the entire width and height of the browser window on larger screens. This can be used in conjunction with the carousel code to display full width and height window sliders. <em>For hero panels to work, the code must be added before the booking bar, above the &lt;main&gt; HTML tag. Please note the additional 'hero' and 'full classes' to be added.</em></p>
+        <pre>&lt;div class=&quot;section panel hero full fade&quot;&gt;</pre>
+<hr />
+
+        <div id="code-carousels" class="anchor"></div>
+        <h3>Carousels</h3>
+        <p><img src="images/alpha-carousels.jpg" /></p>
+<pre>&lt;!-- Gallery | START --&gt;
+&lt;div class=&quot;section gallery fade&quot;&gt;
+    
+    &lt;!-- Feature --&gt;&lt;figure class=&quot;item-w2 item-h2&quot;&gt;
+        &lt;a href=&quot;images/1200x800-7.jpg&quot;&gt;
+            &lt;div class=&quot;img&quot;&gt;&lt;img alt=&quot;&quot; data-original=&quot;images/1200x800-7.jpg&quot; width=&quot;900&quot; height=&quot;600&quot; src=&quot;system/images/blank.png&quot;&gt;&lt;/div&gt;
+        &lt;/a&gt;
+    &lt;/figure&gt;
+    &lt;figure class=&quot;&quot;&gt;
+        &lt;a href=&quot;images/1200x800-9.jpg&quot;&gt;
+            &lt;div class=&quot;img&quot;&gt;&lt;img alt=&quot;&quot; data-original=&quot;images/1200x800-9.jpg&quot; width=&quot;900&quot; height=&quot;600&quot; src=&quot;system/images/blank.png&quot;&gt;&lt;/div&gt;
+        &lt;/a&gt;
+    &lt;/figure&gt;
+    &lt;figure class=&quot;&quot;&gt;
+        &lt;a href=&quot;images/1200x800-11.jpg&quot;&gt;
+            &lt;div class=&quot;img&quot;&gt;&lt;img alt=&quot;&quot; data-original=&quot;images/1200x800-11.jpg&quot; width=&quot;900&quot; height=&quot;600&quot; src=&quot;system/images/blank.png&quot;&gt;&lt;/div&gt;
+        &lt;/a&gt;
+    &lt;/figure&gt;
+    &lt;figure class=&quot;&quot;&gt;
+        &lt;a href=&quot;images/1200x800-5.jpg&quot;&gt;
+            &lt;div class=&quot;img&quot;&gt;&lt;img alt=&quot;&quot; data-original=&quot;images/1200x800-5.jpg&quot; width=&quot;900&quot; height=&quot;600&quot; src=&quot;system/images/blank.png&quot;&gt;&lt;/div&gt;
+        &lt;/a&gt;
+    &lt;/figure&gt;
+    &lt;figure class=&quot;&quot;&gt;
+        &lt;a href=&quot;images/1200x800-10.jpg&quot;&gt;
+            &lt;div class=&quot;img&quot;&gt;&lt;img alt=&quot;&quot; data-original=&quot;images/1200x800-10.jpg&quot; width=&quot;900&quot; height=&quot;600&quot; src=&quot;system/images/blank.png&quot;&gt;&lt;/div&gt;
+        &lt;/a&gt;
+    &lt;/figure&gt;
+
+&lt;/div&gt;
+&lt;!-- Gallery | END --&gt;
+</pre>
+<hr />
+
+        <div id="code-gallery" class="anchor"></div>
+        <h3>Gallery</h3>
+        <p><img src="images/alpha-gallery.jpg" /></p>
+<pre>&lt;!-- Gallery | START --&gt;
+&lt;div class=&quot;section gallery fade&quot;&gt;
+    
+    &lt;!-- Feature --&gt;&lt;figure class=&quot;item-w2 item-h2&quot;&gt;
+        &lt;a href=&quot;images/1200x800-7.jpg&quot;&gt;
+            &lt;div class=&quot;img&quot;&gt;&lt;img alt=&quot;&quot; data-original=&quot;images/1200x800-7.jpg&quot; width=&quot;900&quot; height=&quot;600&quot; src=&quot;system/images/blank.png&quot;&gt;&lt;/div&gt;
+        &lt;/a&gt;
+    &lt;/figure&gt;
+    &lt;figure class=&quot;&quot;&gt;
+        &lt;a href=&quot;images/1200x800-9.jpg&quot;&gt;
+            &lt;div class=&quot;img&quot;&gt;&lt;img alt=&quot;&quot; data-original=&quot;images/1200x800-9.jpg&quot; width=&quot;900&quot; height=&quot;600&quot; src=&quot;system/images/blank.png&quot;&gt;&lt;/div&gt;
+        &lt;/a&gt;
+    &lt;/figure&gt;
+    &lt;figure class=&quot;&quot;&gt;
+        &lt;a href=&quot;images/1200x800-11.jpg&quot;&gt;
+            &lt;div class=&quot;img&quot;&gt;&lt;img alt=&quot;&quot; data-original=&quot;images/1200x800-11.jpg&quot; width=&quot;900&quot; height=&quot;600&quot; src=&quot;system/images/blank.png&quot;&gt;&lt;/div&gt;
+        &lt;/a&gt;
+    &lt;/figure&gt;
+    &lt;figure class=&quot;&quot;&gt;
+        &lt;a href=&quot;images/1200x800-5.jpg&quot;&gt;
+            &lt;div class=&quot;img&quot;&gt;&lt;img alt=&quot;&quot; data-original=&quot;images/1200x800-5.jpg&quot; width=&quot;900&quot; height=&quot;600&quot; src=&quot;system/images/blank.png&quot;&gt;&lt;/div&gt;
+        &lt;/a&gt;
+    &lt;/figure&gt;
+    &lt;figure class=&quot;&quot;&gt;
+        &lt;a href=&quot;images/1200x800-10.jpg&quot;&gt;
+            &lt;div class=&quot;img&quot;&gt;&lt;img alt=&quot;&quot; data-original=&quot;images/1200x800-10.jpg&quot; width=&quot;900&quot; height=&quot;600&quot; src=&quot;system/images/blank.png&quot;&gt;&lt;/div&gt;
+        &lt;/a&gt;
+    &lt;/figure&gt;
+
+&lt;/div&gt;
+&lt;!-- Gallery | END --&gt;
+</pre>
+<p>The gallery uses a combination of customised plugins to function. Adding images however is relatively easy using the HTML code below. There are three sizes available &ndash; Small, Feature (large) and Portrait.</p>
+        <p><strong>Small</strong></p><br />
+<pre>&lt;figure class=&quot;&quot;&gt;
+    &lt;a href=&quot;preview/images/gallery-1.jpg&quot;&gt;
+        &lt;span&gt;Lorem ipsum dolor sit amet&lt;/span&gt;
+        &lt;img alt=&quot;&quot; data-original=&quot;preview/images/gallery-1.jpg&quot; width=&quot;900&quot; height=&quot;600&quot; src=&quot;system/images/blank.png&quot; /&gt;
+    &lt;/a&gt;
+&lt;/figure&gt;</pre>
+<p><strong>Feature</strong></p><br />
+<pre>&lt;!-- Feature --&gt;&lt;figure class=&quot;item-w2 item-h2&quot;&gt;
+    &lt;a href=&quot;preview/images/gallery-2.jpg&quot;&gt;
+        &lt;span&gt;Lorem ipsum dolor sit amet&lt;/span&gt;
+        &lt;img alt=&quot;&quot; data-original=&quot;preview/images/gallery-2.jpg&quot; width=&quot;900&quot; height=&quot;600&quot; src=&quot;system/images/blank.png&quot; /&gt;
+    &lt;/a&gt;
+&lt;/figure&gt;</pre>
+<p><strong>Portrait</strong></p><br />
+<pre>&lt;!-- Portrait --&gt;&lt;figure class=&quot;item-h2&quot;&gt;
+    &lt;a href=&quot;preview/images/gallery-3.jpg&quot;&gt;
+        &lt;span&gt;Lorem ipsum dolor sit amet&lt;/span&gt;
+        &lt;img alt=&quot;&quot; data-original=&quot;preview/images/gallery-3.jpg&quot; width=&quot;600&quot; height=&quot;900&quot; src=&quot;system/images/blank.png&quot; /&gt;
+    &lt;/a&gt;
+&lt;/figure&gt;</pre>
+<hr />
+
+        <div id="code-boxes" class="anchor"></div>
+		<h3>Boxes</h3>
+        <p><img src="images/alpha-boxes.jpg" /></p>
+<pre>&lt;!-- Boxes | START --&gt;
+&lt;div class=&quot;section boxes fade&quot;&gt;
+	&lt;div class=&quot;center&quot;&gt;
+    
+        &lt;div class=&quot;col-3&quot;&gt;
+        	&lt;div class=&quot;item&quot;&gt;
+                &lt;div class=&quot;thumb&quot;&gt;&lt;a href=&quot;accommodation-room.html&quot;&gt;&lt;div class=&quot;back&quot; data-image=&quot;images/600x400-1.jpg&quot;&gt;&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;
+                &lt;div class=&quot;details&quot;&gt;
+                    &lt;h3&gt;Standard Room&lt;/h3&gt;
+                    &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id.&lt;/p&gt;
+                    &lt;p&gt;&lt;a href=&quot;accommodation-room.html&quot; class=&quot;button&quot;&gt;View Room &lt;i class=&quot;icon ion-ios-arrow-right&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&quot;col-3&quot;&gt;
+        	&lt;div class=&quot;item&quot;&gt;
+                &lt;div class=&quot;thumb&quot;&gt;&lt;a href=&quot;accommodation-room.html&quot;&gt;&lt;div class=&quot;back&quot; data-image=&quot;images/600x400-2.jpg&quot;&gt;&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;
+                &lt;div class=&quot;details&quot;&gt;
+                    &lt;h3&gt;Deluxe Apartment&lt;/h3&gt;
+                    &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id.&lt;/p&gt;
+                    &lt;p&gt;&lt;a href=&quot;accommodation-room.html&quot; class=&quot;button&quot;&gt;View Room &lt;i class=&quot;icon ion-ios-arrow-right&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&quot;col-3&quot;&gt;
+        	&lt;div class=&quot;item&quot;&gt;
+                &lt;div class=&quot;thumb&quot;&gt;&lt;a href=&quot;accommodation-room.html&quot;&gt;&lt;div class=&quot;back&quot; data-image=&quot;images/600x400-3.jpg&quot;&gt;&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;
+                &lt;div class=&quot;details&quot;&gt;
+                    &lt;h3&gt;The Alpha Suite&lt;/h3&gt;
+                    &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id.&lt;/p&gt;
+                    &lt;p&gt;&lt;a href=&quot;accommodation-room.html&quot; class=&quot;button&quot;&gt;View Room &lt;i class=&quot;icon ion-ios-arrow-right&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Boxes | END --&gt;
+</pre>
+<hr />
+
+        <div id="code-timeline" class="anchor"></div>
+		<h3>Timeline</h3>
+        <p><img src="images/alpha-timeline.jpg" /></p>
+<pre>&lt;!-- Timeline | START --&gt;
+&lt;div class=&quot;section timeline&quot;&gt;
+	&lt;div class=&quot;label fade&quot;&gt;Hotel Facilities&lt;/div&gt;
+	&lt;div class=&quot;center fade&quot;&gt;
+    
+        &lt;div class=&quot;item fade&quot;&gt;
+        	&lt;div class=&quot;thumb&quot;&gt;&lt;a href=&quot;contact.php&quot;&gt;&lt;div class=&quot;back&quot;&gt;&lt;img src=&quot;images/800x400-1.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;
+        	&lt;div class=&quot;details&quot;&gt;
+            	&lt;h2&gt;Equipment hire&lt;/h2&gt;
+                &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti. Lorem ipsum dolor sit amet.&lt;/p&gt;
+                &lt;p&gt;&lt;a class=&quot;button&quot; href=&quot;contact.php&quot;&gt;Enquire online &lt;i class=&quot;icon ion-ios-arrow-right&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&quot;item fade&quot;&gt;
+        	&lt;div class=&quot;thumb&quot;&gt;&lt;a href=&quot;restaurant.html&quot;&gt;&lt;div class=&quot;back&quot;&gt;&lt;img src=&quot;images/800x400-2.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;
+        	&lt;div class=&quot;details&quot;&gt;
+            	&lt;h2&gt;Asian-inspired cuisine&lt;/h2&gt;
+                &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti. Lorem ipsum dolor sit amet.&lt;/p&gt;
+                &lt;p&gt;&lt;a class=&quot;button&quot; href=&quot;restaurant.html&quot;&gt;See the menu &lt;i class=&quot;icon ion-ios-arrow-right&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Timeline | END --&gt;
+</pre>
+<hr />
+
+        <div id="code-stats" class="anchor"></div>
+		<h3>Stats</h3>
+        <p><img src="images/alpha-stats.jpg" /></p>
+<pre>&lt;!-- Stats | START --&gt;
+&lt;div class=&quot;section stats fade&quot;&gt;
+	&lt;div class=&quot;center&quot;&gt;
+        &lt;h3&gt;Last month at Alpha Hotel&lt;/h3&gt;
+        &lt;div class=&quot;col-4&quot;&gt;
+        	&lt;div class=&quot;number&quot;&gt;225&lt;/div&gt;
+            &lt;p&gt;Guests Stayed&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col-4&quot;&gt;
+        	&lt;div class=&quot;number&quot;&gt;198&lt;/div&gt;
+            &lt;p&gt;Meals Served&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col-4&quot;&gt;
+        	&lt;div class=&quot;number&quot;&gt;75&lt;/div&gt;
+            &lt;p&gt;Tours Booked&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col-4&quot;&gt;
+        	&lt;div class=&quot;number&quot;&gt;112&lt;/div&gt;
+            &lt;p&gt;Spa Treatments&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Stats | END --&gt;
+</pre>
+<hr />
+
+        <div id="code-features" class="anchor"></div>
+		<h3>Features</h3>
+        <p><img src="images/alpha-features.jpg" /></p>
+<pre>&lt;!-- Features | START --&gt;
+&lt;div class=&quot;section features&quot;&gt;
+	&lt;div class=&quot;center&quot;&gt;
+    
+        &lt;div class=&quot;item fade&quot;&gt;
+        	&lt;div class=&quot;col-2&quot;&gt;
+                &lt;div class=&quot;thumb&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;div class=&quot;back&quot; data-image=&quot;images/300x300-1.jpg&quot;&gt;&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;
+                &lt;h4&gt;Seafarers Bridge&lt;/h4&gt;
+                &lt;p&gt;&lt;strong&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit.&lt;/strong&gt;&lt;/p&gt;
+                &lt;p&gt;&lt;a class=&quot;button&quot; href=&quot;#&quot;&gt;Visit Website &lt;i class=&quot;icon ion-ios-arrow-right&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-2&quot;&gt;
+                &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti. Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero. Lorem ipsum dolor sit amet.&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&quot;item fade&quot;&gt;
+        	&lt;div class=&quot;col-2&quot;&gt;
+                &lt;div class=&quot;thumb&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;div class=&quot;back&quot; data-image=&quot;images/300x300-2.jpg&quot;&gt;&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;
+                &lt;h4&gt;Melbourne Zoo&lt;/h4&gt;
+                &lt;p&gt;&lt;strong&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit.&lt;/strong&gt;&lt;/p&gt;
+                &lt;p&gt;&lt;a class=&quot;button&quot; href=&quot;#&quot;&gt;Visit Website &lt;i class=&quot;icon ion-ios-arrow-right&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;col-2&quot;&gt;
+                &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti. Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero. Lorem ipsum dolor sit amet.&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Features | END --&gt;
+</pre>
+<hr />
+
+        <div id="code-usps" class="anchor"></div>
+		<h3>Unique Selling Points</h3>
+        <p><img src="images/alpha-usps.jpg" /></p>
+<pre>&lt;!-- USP Strip | START --&gt;
+&lt;div class=&quot;section usp fade&quot;&gt;
+	&lt;div class=&quot;center&quot;&gt;
+    
+        &lt;div class=&quot;col-3&quot;&gt;
+        	&lt;div class=&quot;item&quot;&gt;
+            	&lt;i class=&quot;icon ion-ios-heart-outline&quot;&gt;&lt;/i&gt;
+                &lt;h4&gt;Number one in Melbourne&lt;/h4&gt;
+                &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel.&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&quot;col-3&quot;&gt;
+        	&lt;div class=&quot;item&quot;&gt;
+            	&lt;i class=&quot;icon ion-ios-location-outline&quot;&gt;&lt;/i&gt;
+                &lt;h4&gt;Waterfront Location&lt;/h4&gt;
+                &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel.&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&quot;col-3&quot;&gt;
+        	&lt;div class=&quot;item&quot;&gt;
+            	&lt;i class=&quot;icon ion-ios-clock-outline&quot;&gt;&lt;/i&gt;
+                &lt;h4&gt;24 Hour Room Service&lt;/h4&gt;
+                &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel.&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- USP Strip | END --&gt;
+</pre>
+<hr />
+
+        <div id="code-services" class="anchor"></div>
+		<h3>Services</h3>
+        <p><img src="images/alpha-services.jpg" /></p>
+<pre>&lt;!-- Services | START --&gt;
+&lt;div class=&quot;section services fade&quot;&gt;
+	&lt;div class=&quot;center&quot;&gt;
+    
+        &lt;div class=&quot;col-6&quot;&gt;
+        	&lt;div class=&quot;item&quot;&gt;
+                &lt;i class=&quot;icon ion-ios-checkmark-outline&quot;&gt;&lt;/i&gt;&lt;br&gt;
+                &lt;h5&gt;Rate Guarantee&lt;/h5&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;details&quot;&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/div&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&quot;col-6&quot;&gt;
+        	&lt;div class=&quot;item&quot;&gt;
+                &lt;i class=&quot;icon ion-ios-glasses-outline&quot;&gt;&lt;/i&gt;&lt;br&gt;
+                &lt;h5&gt;Fine Details&lt;/h5&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;details&quot;&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/div&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&quot;col-6&quot;&gt;
+        	&lt;div class=&quot;item&quot;&gt;
+                &lt;i class=&quot;icon ion-ios-partlysunny-outline&quot;&gt;&lt;/i&gt;&lt;br&gt;
+                &lt;h5&gt;Large Balcony&lt;/h5&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;details&quot;&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/div&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&quot;col-6&quot;&gt;
+        	&lt;div class=&quot;item&quot;&gt;
+                &lt;i class=&quot;icon ion-ios-chatbubble-outline&quot;&gt;&lt;/i&gt;&lt;br&gt;
+                &lt;h5&gt;Concierge&lt;/h5&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;details&quot;&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/div&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&quot;col-6&quot;&gt;
+        	&lt;div class=&quot;item&quot;&gt;
+                &lt;i class=&quot;icon ion-ios-barcode-outline&quot;&gt;&lt;/i&gt;&lt;br&gt;
+                &lt;h5&gt;Media System&lt;/h5&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;details&quot;&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/div&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&quot;col-6&quot;&gt;
+        	&lt;div class=&quot;item&quot;&gt;
+                &lt;i class=&quot;icon ion-ios-telephone-outline&quot;&gt;&lt;/i&gt;&lt;br&gt;
+                &lt;h5&gt;Telephone&lt;/h5&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;details&quot;&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/div&gt;
+        &lt;/div&gt;
+    
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Services | END --&gt;
+</pre>
+<hr />
+
+        <div id="code-testimonials" class="anchor"></div>
+		<h3>Testimonials</h3>
+        <p><img src="images/alpha-testimonials.jpg" /></p>
+<pre>&lt;!-- Testimonials | START --&gt;
+&lt;div class=&quot;section testimonials fade&quot;&gt;
+	&lt;div class=&quot;center&quot;&gt;
+    
+    	&lt;div class=&quot;item&quot;&gt;
+            &lt;div class=&quot;testimonial&quot;&gt;
+                &lt;i class=&quot;icon ion-quote&quot;&gt;&lt;/i&gt;
+                &lt;h3&gt;Impressive Hotel&lt;/h3&gt;
+                &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti. Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing. Lorem ipsum dolor sit amet.&lt;/p&gt;
+                &lt;p class=&quot;name&quot;&gt;&amp;ndash; &lt;strong&gt;Tammy Winters&lt;/strong&gt; (Perth, Australia)&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&quot;item&quot;&gt;
+            &lt;div class=&quot;testimonial&quot;&gt;
+                &lt;i class=&quot;icon ion-quote&quot;&gt;&lt;/i&gt;
+                &lt;h3&gt;Our favourite place to stay&lt;/h3&gt;
+                &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti. Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet.&lt;/p&gt;
+                &lt;p class=&quot;name&quot;&gt;&amp;ndash; &lt;strong&gt;Sam Owens&lt;/strong&gt; (Auckland, New Zealand)&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&quot;item&quot;&gt;
+            &lt;div class=&quot;testimonial&quot;&gt;
+                &lt;i class=&quot;icon ion-quote&quot;&gt;&lt;/i&gt;
+                &lt;h3&gt;Comfortable &amp; spacious apartment&lt;/h3&gt;
+                &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti. Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus.&lt;/p&gt;
+                &lt;p class=&quot;name&quot;&gt;&amp;ndash; &lt;strong&gt;John Smith&lt;/strong&gt; (Sydney, Australia)&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Testimonials | END --&gt;
+</pre>
+<hr />
+
+        <div id="code-quotes" class="anchor"></div>
+		<h3>Quotes</h3>
+        <p><img src="images/alpha-quote.jpg" /></p>
+<pre>&lt;!-- Quote | START --&gt;
+&lt;div class=&quot;section quote fade&quot;&gt;
+	&lt;div class=&quot;center&quot;&gt;
+    
+        &lt;div class=&quot;col-1&quot;&gt;
+        	&lt;div class=&quot;thumb&quot;&gt;&lt;img src=&quot;images/160x160-2.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;
+            &lt;h5&gt;&lt;em&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium sollicitudin.&lt;/em&gt;&lt;/h5&gt;
+            &lt;p&gt;&lt;span&gt;&lt;strong&gt;Klaye Morrison&lt;/strong&gt; (Head Chef)&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+        
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Quote | END --&gt;
+</pre>
+<hr />
+
+        <div id="code-accordions" class="anchor"></div>
+		<h3>Accordions</h3>
+        <p><img src="images/alpha-accordions.jpg" /></p>
+<pre>&lt;!-- Accordion | START --&gt;
+&lt;div class=&quot;section accordion fade&quot;&gt;
+    &lt;div class=&quot;center&quot;&gt;
+        &lt;ul&gt;
+        
+            &lt;li&gt;
+                &lt;div class=&quot;question&quot;&gt;
+                    &lt;h4&gt;Lorem ipsum dolor sit amet, consectetuer?&lt;/h4&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;answer&quot;&gt;
+                    &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti. Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/li&gt;
+            
+            &lt;li&gt;
+                &lt;div class=&quot;question&quot;&gt;
+                    &lt;h4&gt;Aliquam tincidunt mauris eu risus?&lt;/h4&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;answer&quot;&gt;
+                    &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti. Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/li&gt;
+            
+            &lt;li&gt;
+                &lt;div class=&quot;question&quot;&gt;
+                    &lt;h4&gt;Vivamus vestibulum nulla nec ante?&lt;/h4&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;answer&quot;&gt;
+                    &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti. Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/li&gt;
+            
+        &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Accordion | END --&gt;
+</pre>
+<hr />
+
+        <div id="code-menus" class="anchor"></div>
+		<h3>Menus</h3>
+        <p><img src="images/alpha-menus.jpg" /></p>
+<pre>&lt;!-- Menu | START --&gt;
+&lt;div class=&quot;section menu fade&quot;&gt;
+	&lt;div class=&quot;center&quot;&gt;
+    
+    	&lt;div class=&quot;item&quot;&gt;
+        	&lt;div class=&quot;title&quot;&gt;
+                &lt;h2&gt;Stir-Fried Rice &amp; Noodles&lt;/h2&gt;
+                &lt;p&gt;11.00am &amp;ndash; 4.00pm&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;ul&gt;
+                &lt;li&gt;
+                    &lt;h4&gt;Lorem ipsum dolor&lt;/h4&gt;
+                    &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/p&gt;
+                    &lt;div class=&quot;price&quot;&gt;
+                        &lt;div&gt;$15&lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;h4&gt;Aliquam tincidunt&lt;/h4&gt;
+                    &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio.&lt;/p&gt;
+                    &lt;div class=&quot;price&quot;&gt;
+                        &lt;div&gt;&lt;span&gt;Small&lt;/span&gt; $10&lt;/div&gt;
+                        &lt;div&gt;&lt;span&gt;Large&lt;/span&gt; $18&lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;h4&gt;Vestibulum auctor &lt;span class=&quot;tag&quot; title=&quot;Vegetarian&quot;&gt;V&lt;/span&gt;&lt;/h4&gt;
+                    &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer.&lt;/p&gt;
+                    &lt;div class=&quot;price&quot;&gt;
+                        &lt;div&gt;$18&lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li&gt;
+                    &lt;h4&gt;Nunc dignissim &lt;span class=&quot;tag&quot; title=&quot;Vegetarian&quot;&gt;V&lt;/span&gt; &lt;span class=&quot;tag&quot; title=&quot;Gluten Free&quot;&gt;GF&lt;/span&gt;&lt;/h4&gt;
+                    &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/p&gt;
+                    &lt;div class=&quot;price&quot;&gt;
+                        &lt;div&gt;$19.5&lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    
+    &lt;/div&gt;
+    &lt;a class=&quot;button&quot; href=&quot;contact.php&quot;&gt;Reserve a table &lt;i class=&quot;icon ion-ios-arrow-right&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;!-- Menu | END --&gt;
+</pre>
+<hr />
+
+        <div id="code-comments" class="anchor"></div>
+		<h3>Comments</h3>
+        <p><img src="images/alpha-comments.jpg" /></p>
+<pre>&lt;!-- Comments | START --&gt;
+&lt;div class=&quot;section comments fade&quot;&gt;
+	&lt;div class=&quot;center&quot;&gt;
+    
+    	&lt;h3&gt;&lt;strong&gt;3&lt;/strong&gt; Comments&lt;/h3&gt;
+    
+        &lt;ol&gt;
+            &lt;li class=&quot;parent&quot;&gt;
+                &lt;div class=&quot;comment-container&quot;&gt;
+                    &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh.&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;a href=&quot;#&quot; class=&quot;comment-reply-link commentpop cboxElement&quot;&gt;Reply to John&lt;/a&gt;&lt;div class=&quot;comment-author&quot;&gt;John &lt;span&gt;on December 18, 2014&lt;/span&gt;&lt;/div&gt;
+                &lt;ol class=&quot;children&quot;&gt;
+                    &lt;li&gt;
+                        &lt;div class=&quot;comment-container&quot;&gt;
+                            &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel.&lt;/p&gt;
+                        &lt;/div&gt;
+                        &lt;a href=&quot;#&quot; class=&quot;comment-reply-link commentpop cboxElement&quot;&gt;Reply to Terry&lt;/a&gt;&lt;div class=&quot;comment-author&quot;&gt;Terry &lt;span&gt;on December 20, 2014&lt;/span&gt;&lt;/div&gt;
+                    &lt;/li&gt;
+                &lt;/ol&gt;
+            &lt;/li&gt;
+            
+            &lt;li class=&quot;parent&quot;&gt;
+                &lt;div class=&quot;comment-container&quot;&gt;
+                    &lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti. Sed egestas, ante et vulputate volutpat.&lt;/p&gt;
+                &lt;/div&gt;
+                &lt;a href=&quot;#&quot; class=&quot;comment-reply-link commentpop cboxElement&quot;&gt;Reply to Jessica&lt;/a&gt;&lt;div class=&quot;comment-author&quot;&gt;Jessica &lt;span&gt;on December 16, 2014&lt;/span&gt;&lt;/div&gt;
+            &lt;/li&gt;
+        &lt;/ol&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Comments | END --&gt;
+</pre>
+<hr />
+
+        <div id="code-subscribe" class="anchor"></div>
+		<h3>Subscribe</h3>
+        <p><img src="images/alpha-subscribe.jpg" /></p>
+<pre>&lt;!-- Subscribe | START --&gt;
+&lt;div class=&quot;section subscribe fade&quot;&gt;
+	&lt;div class=&quot;center&quot;&gt;
+        &lt;h3&gt;&lt;strong&gt;Follow us&lt;/strong&gt; to receive the latest news&lt;/h3&gt;
+        &lt;form&gt;
+            &lt;input name=&quot;name&quot; type=&quot;text&quot; placeholder=&quot;Your Name&quot; required /&gt;
+            &lt;input name=&quot;email&quot; type=&quot;text&quot; placeholder=&quot;Email Address&quot; required /&gt;
+            &lt;button name=&quot;subscribe&quot; value=&quot;subscribeform&quot; class=&quot;button&quot;&gt;Subscribe &lt;i class=&quot;icon ion-ios-email-outline&quot;&gt;&lt;/i&gt;&lt;/button&gt;
+        &lt;/form&gt;
+        
+        &lt;!-- Social | START --&gt;
+        &lt;div class=&quot;section social&quot;&gt;
+            &lt;a href=&quot;https://www.facebook.com&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;icon ion-social-facebook&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+            &lt;a href=&quot;https://www.instagram.com/klayemorrison/&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;icon ion-social-instagram-outline&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;!-- Social | END --&gt;
+        
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- Subscribe | END --&gt;
+</pre>
+<hr />
+
+        <div id="code-maps" class="anchor"></div>
+		<h3>Maps</h3>
+        <p><img src="images/alpha-maps.jpg" /></p>
+<pre>&lt;!-- Map | START --&gt;
+&lt;div class=&quot;section map fade&quot;&gt;
+    
+    &lt;div id=&quot;map&quot;&gt;&lt;/div&gt;
+    
+    &lt;script&gt;function initialize() {
+	var latlng = new google.maps.LatLng(-37.837580, 144.961543);
+	var myOptions = {
+	zoom: 13,
+	center: latlng,
+	mapTypeId: google.maps.MapTypeId.ROADMAP,
+	scrollwheel: false
+	};
+	var map = new google.maps.Map(document.getElementById('map'), myOptions);
+	var marker = new google.maps.Marker({
+	position: latlng, 
+	map: map,
+	icon: &quot;system/images/point.png&quot;
+	});
+	}
+	function loadScript() {
+	var script = document.createElement('script');
+	script.type = 'text/javascript';
+	script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false&amp;'+'callback=initialize';
+	document.body.appendChild(script);
+	}
+	window.onload = loadScript;&lt;/script&gt;
+        
+&lt;/div&gt;
+&lt;!-- Map | END --&gt;
+</pre>
+    </section>
+
+
+
+    <!-- Contact Forms -->
+    <section id="contactform">
+    	<h2>Contact Forms</h2>
+        <p><strong>This template includes a fully functional PHP Mailer script and HTML template. The form acts as a booking request, ideal for properties who don't have an online booking engine. The template also includes a newsletter subscribe form, which acts in a similar way.</strong></p>
+        <p><img src="images/alpha-form.jpg" /></p>
+        <h3>Hotel Details</h3>
+        <p>Before using the form, you will need to update the PHP code with your details.</p>
+<pre>// Hotel Details
+
+$hotel_name = &quot;Alpha Hotel&quot;;
+$hotel_email = &quot;test@klayemorrison.com&quot;;</pre>
+        <h3>HTML Email Templates</h3>
+        <p>The form uses two templates, found in system/email/ &ndash; 'template-guest.php' (sent to users filling out the form) and 'template-hotel.php' (sent to the hotel). Before using, please be sure to update the guest template with your details and imagery.</p>
+        <h3>Calendar Languages</h3>
+        <p>To display the calendar in a different language, go to <a href="https://github.com/jquery/jquery-ui/tree/master/ui/i18n" target="_blank">https://github.com/jquery/jquery-ui/tree/master/ui/i18n</a>, copy the JS from the relevant language file and paste it into global.js before 'datepicker' is called.</p>
+    </section>
+    
+    
+    
+    <!-- Credits -->
+    <section id="credits">
+    	<h2>Credits</h2>
+        <h3>Photography</h3>
+        <p><a href="http://klayemorrison.com/go/alpha-hotel-photos" target="_blank"><strong>Download Free Demo Photos</strong></a><br>
+        <strong>All photos were captured by Klaye Morrison</strong><br>
+		You are free to use my photos, however you may not resell or redistribute them.</p>
+        <hr />
+        <ul>
+            <li><a href="http://shutteroo.com" target="_blank"><strong>Shutteroo</strong></a> Free images, no worries</li>
+            <li><a href="http://isotope.metafizzy.co/" target="_blank"><strong>Isotope</strong></a> and <a href="http://packery.metafizzy.co/" target="_blank"><strong>Packery</strong></a> - Gallery and Guest Book (commercial license)</li>
+            <li><strong><a href="https://github.com/gilbitron/carouFredSel" target="_blank">carouFredSel</a></strong> - Image Slideshows</li>
+            <li><strong><a href="http://www.jacklmoore.com/colorbox" target="_blank">Colorbox</a></strong> - Gallery lightbox effect</li>
+            <li><strong><a href="http://www.appelsiini.net/projects/lazyload" target="_blank">Lazy Load</a></strong> - Gallery image loading</li>
+            <li><strong><a href="http://labs.rampinteractive.co.uk/touchSwipe/" target="_blank">TouchSwipe</a></strong> - Mobile touch</li>
+            <li><strong><a href="https://www.google.com/fonts/" target="_blank">Google Fonts</a></strong> - Font library</li>
+            <li><strong><a href="http://ionicons.com/" target="_blank">Ion Icons</a></strong> - Icons</li>
+            <li><strong><a href="http://lipis.github.io/flag-icon-css/" target="_blank">Flag Icon CSS</a></strong> - Country flags</li>
+        </ul>
+    </section>
+</main>
+</body>
+</html>

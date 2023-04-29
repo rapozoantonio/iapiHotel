@@ -1,0 +1,10 @@
+4 June 2016
+
+- Added honeypot field to form for spam bots
+- Removed borders from container
+- Various styling tweaks
+
+17 April 2016
+
+- Added new 'no-booking' files for businesses that aren't hotels
+- Updated documentation
