@@ -1,13 +1,12 @@
 /* Alpha Hotel: HTML Template by Klaye Morrison (http://klayemorrison.com) */
 
-const { injectSpeedInsights } = require('@vercel/speed-insights');
-const { inject } = require('@vercel/analytics');
+import { inject } from '@vercel/analytics';
+import { injectSpeedInsights } from '@vercel/speed-insights';
 
-document.addEventListener('DOMContentLoaded', function () {
-  injectSpeedInsights();
+document.addEventListener('DOMContentLoaded', () => {
   inject();
+  injectSpeedInsights();
 });
-
 
 /******************** Document Ready ********************/
 
