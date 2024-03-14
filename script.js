@@ -1,6 +1,4 @@
 /* Alpha Hotel: HTML Template by Klaye Morrison (http://klayemorrison.com) */
-
-
 /******************** Document Ready ********************/
 
 $(document).ready(function () {
@@ -503,6 +501,5 @@ $(window).load(function () {
 	// Section Fade
 
 	clearTimeout(timer);
-	fader();
 
 });
